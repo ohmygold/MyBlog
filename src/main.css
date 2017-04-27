@@ -1,2 +1,39 @@
-html,body,#root,.wrap{height: 100%;}
-.wrap{display: flex;}
+html,body,#root,.wrap{height: 100%;background-color: #f6f6f6;}
+header,footer{flex-shrink: 0;}
+.wrap{display: flex;flex-direction: column;}
+
+header{display: flex;align-items: center;height: 140px;justify-content: space-around;}
+
+.main{flex-grow: 1;overflow-y: auto;}
+.home_top{
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.top{
+  padding-top: 210px;
+  padding-bottom: 120px;
+  padding-left: 250px;
+}
+.home_btm{
+  display: flex;
+  padding-left: 250px;
+  height: 209px;
+  justify-content:center;
+  align-items: center;
+}
+.ability,.job,.project{
+width: 454px;
+line-height: 209px;
+text-align: center;
+box-shadow:0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.ability{
+  background-image: url(../img/2.jpg);background-repeat: no-repeat;background-size: cover;
+}
+.job{
+    background-image: url(../img/3.jpg);background-repeat: no-repeat;background-size: cover;
+}
+.project{
+  background-image: url(../img/4.png);background-repeat: no-repeat;background-size: cover;
+}
