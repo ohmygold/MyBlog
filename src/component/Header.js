@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router';
+
 
 
 
@@ -7,10 +9,10 @@ class Header extends React.Component {
   render(){
     return(
       <header>
-        <div>主页</div>
-        <div>专业技能</div>
-        <div>工作经历</div>
-        <div>项目经验</div>
+        <div><Link to="/">主页</Link></div>
+        <div><Link to="ability">专业技能</Link></div>
+        <div><Link to="job">工作经历</Link></div>
+        <div><Link to="project">项目经验</Link></div>
       </header>
     )
   }

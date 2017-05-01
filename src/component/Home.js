@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 
 
@@ -17,9 +18,9 @@ class Home extends React.Component {
           </div>
         </div>
         <div className='home_btm'>
-          <div className='ability'>专业技能</div>
-          <div className='job'>工作经历</div>
-          <div className='project'>项目经验</div>
+          <div className='ability'><Link  to='ability'>专业技能</Link></div>
+          <div className='job'><Link to='job'>工作经历</Link></div>
+          <div className='project'><Link to='project'>项目经验</Link></div>
         </div>
       </div>
     )
