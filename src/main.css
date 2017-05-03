@@ -1,16 +1,32 @@
 html,body,#root,.wrap{height: 100%;background-color: #f6f6f6;}
-header,footer{flex-shrink: 0;}
+header{flex-shrink: 0;}
 .wrap{display: flex;flex-direction: column;}
 
-header{display: flex;align-items: center;height: 140px;justify-content: space-around;}
-.ability_1{
+header{display: flex;align-items: center;height: 140px;justify-content: space-around;padding: 0 180px;}
+.ability_1{background-color: #e8e8e8;}
+.ability_2{
   display: flex;
-  background-image: url(../img/2.jpg);
+  background-image: url(../img/ability_03.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 84%;
+  padding-top: 100px;
+  padding-bottom: 200px;margin: 0 auto;
 }
-.txt{margin-bottom: 20px;}
-.txt{margin-bottom: 20px;}
+.left{width: 34.75%;padding-top: 188px;padding-left: 3.5%}
+.right{width: 65.25%;}
+.txt{margin-bottom: 20px;padding:20px 0 20px 6.7%;
+  background: linear-gradient(to right,#efe7dc 0,rgba(239,231,220,0) 100%)
+  }
+
+  .job_1{width: 84%;background-image: url(../img/job_03.png);margin: 0 auto;padding: 250px 17.1%;
+  background-repeat: no-repeat;background-size: cover;}
+
+
+  .project_1{width: 84%;background-image: url(../img/project_03.png);
+    background-repeat: no-repeat;background-size: cover;height: 840px;margin: 0 auto;
+    }
+    .project_2{padding-top: 170px;padding-left: 31.5%;}
 .main{flex-grow: 1;overflow-y: auto;}
 .home_top{
   background-image: url(../img/1.jpg);
